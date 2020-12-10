@@ -8,4 +8,5 @@
 cnpm i rollup rollup-plugin-babel @babel/core @babel/preset-env rollup-plugin-serve -D
 ```
 
-打包类库，一般使用rollup；写项目，一般使用webpack
+打包类库，一般使用rollup；写项目，一般使用webpack。
+

@@ -15,7 +15,7 @@ export default { // 用于打包的配置
         }),
         serve({
             open: true, // 服务启动后，自动打开浏览器
-            openPage: "./public/index.html", // 服务起来之后，默认打开某个页面
+            openPage: "/public/index.html", // 服务起来之后，默认打开某个页面
             port: 3000, // 启动的服务端口
             contentBase: "" // 以哪个目录下的哪个文件来启动，""就是默认以当前类库的根目录下的"/public/index.html"文件来启动
         })
