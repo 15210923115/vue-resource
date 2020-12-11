@@ -14,11 +14,9 @@ function proxy(vm, source, key) {
     // 代理属性    为了用户能直接通过vm拿到data里的属性
     Object.defineProperty(vm, key, {
         get() {
-            console.log('get proxy');
             return vm[source][key];
         },
         set(newValue) {
-            console.log('set proxy');
             vm[source][key] = newValue;
         }
     });
